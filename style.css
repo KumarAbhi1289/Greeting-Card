@@ -106,8 +106,8 @@ figure.front p{
     font-size: 4rem;
 }
 figure.back{
-    width: calc(var(--mainWidth) - 4rem);
-    height: calc(var(--mainHeight) - 1rem);
+    width: calc(var(--mainWidth) - 6rem);
+    height: calc(var(--mainHeight) - 2rem);
     background: url('./img/shayri.jpg');
     transform: rotateY(180deg);
     background-position: center;
