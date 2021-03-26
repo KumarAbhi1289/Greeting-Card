@@ -24,7 +24,13 @@
         </div>
     </div>
     <script>
-        alert("Tap on greeting to open it.")
+        if(screen.width <= 768){
+            alert("Tap on greeting to open it.");
+        }
+        else{
+            alert("Hover on greeting to open it."); 
+        }
+        
     </script>
 </body>
 </html>
